@@ -15,9 +15,9 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 - HTML5
 - Flexbox
 - Sass
-- API Fetch of Javascript 
+- API Fetch of Javascript
 
 ##### Author
 
 - Website - [Ny Nivoarijaona](https://ny-nivoarijaona.space)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/fanasinany)
+- Frontend Mentor - [@nynivoarijaona](https://www.frontendmentor.io/profile/fanasinany)
