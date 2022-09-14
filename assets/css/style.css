@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+body {
+  font-family: "Manrope", sans-serif;
+  color: hsl(193deg, 38%, 86%);
+  background-color: hsl(218deg, 23%, 16%);
+  min-height: 100vh;
+  padding: 16px;
+  box-sizing: border-box;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+}
+
+h2 {
+  margin: 0;
+}
+
+main {
+  display: flex;
+}
+
+.card-advice-wrapper {
+  background-color: hsl(217deg, 19%, 24%);
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 16px;
+  padding: 32px;
+  text-align: center;
+  position: relative;
+}
+.card-advice-wrapper h2 {
+  color: hsl(150deg, 100%, 66%);
+  font-size: 0.9rem;
+  letter-spacing: 4px;
+}
+.card-advice-wrapper > img {
+  margin: 24px 0;
+  width: 100%;
+}
+.card-advice-wrapper > img.pattern-mobile {
+  display: none;
+}
+@media (max-width: 550px) {
+  .card-advice-wrapper {
+    padding: 24px;
+  }
+  .card-advice-wrapper > img .pattern-mobile {
+    display: flex;
+  }
+  .card-advice-wrapper > img .pattern-desktop {
+    display: none;
+  }
+}
+
+.block-dice {
+  position: absolute;
+  bottom: -28px;
+  background-color: hsl(150deg, 100%, 66%);
+  height: 56px;
+  width: 56px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+  cursor: pointer;
+  border: none;
+}
+.block-dice:hover {
+  box-shadow: 0px 0px 37px 0px rgba(82, 255, 168, 0.96);
+}/*# sourceMappingURL=style.css.map */
