@@ -13,7 +13,7 @@ body {
   font-size: 28px;
 }
 
-h2 {
+h1 {
   margin: 0;
 }
 
@@ -34,7 +34,7 @@ main {
   text-align: center;
   position: relative;
 }
-.card-advice-wrapper h2 {
+.card-advice-wrapper h1 {
   color: hsl(150deg, 100%, 66%);
   font-size: 0.9rem;
   letter-spacing: 4px;
